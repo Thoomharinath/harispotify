@@ -1,0 +1,133 @@
+.page-bar {
+  background-color: rgba(128, 128, 128, 0.603);
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.circle-red {
+  color: red;
+  margin-left: 5px;
+  height: 10px;
+}
+.circle-green {
+  color: green;
+  height: 10px;
+}
+.circle-yellow {
+  color: yellow;
+  margin: 3px;
+  height: 10px;
+}
+.music-page {
+  display: flex;
+  width: 100%;
+  max-width: 1224px;
+  margin: 5px;
+  border-radius: 2px;
+}
+.header-music-container {
+  display: flex;
+  width: 100%;
+  border-radius: 2px;
+}
+.header-right-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.poster {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsla(0, 100%, 81%, 0.801);
+  height: 139px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .poster-image {
+    display: none;
+  }
+}
+.poster-name {
+  color: white;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.span-name {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+}
+@media screen and (max-width: 768px) {
+  .span-name {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+  }
+}
+.flower {
+  color: yellow;
+  margin: 5px;
+}
+.moon {
+  color: black;
+  margin: 5px;
+}
+.play-songs {
+  width: 100%;
+  margin: 5px;
+}
+.album-fulllist {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  background-color: black;
+}
+.album-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.album-link {
+  text-decoration: none;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.album-image {
+  height: 200px;
+  width: 200px;
+}
+.carousel-container {
+  width: 95%;
+  padding: 15px;
+}
+@media screen and (max-width: 767px) {
+  .carousel-container {
+    display: none;
+  }
+  .medium-device-container {
+    width: 99%;
+    padding: 15px;
+  }
+  .play-songs {
+    width: 95%;
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .medium-device-container {
+    display: none;
+  }
+}

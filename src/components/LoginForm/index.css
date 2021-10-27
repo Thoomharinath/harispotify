@@ -1,0 +1,21 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: grey;
+}
+
+.login-but {
+  padding: 20px;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.color {
+  color: white;
+  text-decoration: none;
+}

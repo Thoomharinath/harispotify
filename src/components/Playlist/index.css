@@ -1,0 +1,19 @@
+.album-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.album-link {
+  text-decoration: none;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.album-image {
+  height: 200px;
+  width: 200px;
+}
+.carousel-container {
+  width: 100%;
+}
